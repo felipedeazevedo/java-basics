@@ -20,11 +20,11 @@ public class Exercicio12 {
 		
 		if (salarioBruto <= 900) {
 			percentualDescontoIr = 0;
-		} else if (salarioBruto > 900 && salarioBruto <= 1500){
+		} else if (salarioBruto > 900 && salarioBruto <= 1500) {
 			percentualDescontoIr = 5;
-		} else if (salarioBruto > 1500 && salarioBruto <= 2500){
+		} else if (salarioBruto > 1500 && salarioBruto <= 2500) {
 			percentualDescontoIr = 10;
-		} else if (salarioBruto > 2500){
+		} else if (salarioBruto > 2500) {
 			percentualDescontoIr = 20;
 		}
 		

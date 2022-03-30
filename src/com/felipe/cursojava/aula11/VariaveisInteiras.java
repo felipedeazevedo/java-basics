@@ -16,7 +16,6 @@ public class VariaveisInteiras {
 		System.out.println("Valor variável idade02 = " + idade02);
 		System.out.println("Valor variável idade03 = " + idade03);
 		System.out.println("Valor variável idade04 = " + idade04);
-		
 	}
 
 }

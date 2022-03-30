@@ -11,8 +11,7 @@ public class Exercicio16 {
 		System.out.println(primeiro);
 		System.out.println(segundo);
 		
-		while (proximo <= 500){
-			
+		while (proximo <= 500) {
 			proximo = primeiro + segundo;
 			primeiro = segundo;
 			segundo = proximo;

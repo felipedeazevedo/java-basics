@@ -13,13 +13,13 @@ public class Exercicio11 {
 		
 		int percentualAumento = 0;
 		
-		if (salario <= 280){
+		if (salario <= 280) {
 			percentualAumento = 20;
-		} else if(salario > 280 && salario < 700){
+		} else if(salario > 280 && salario < 700) {
 			percentualAumento = 15;
-		} else if(salario >= 700 && salario < 1500){
+		} else if(salario >= 700 && salario < 1500) {
 			percentualAumento = 10;
-		} else if(salario > 1500){
+		} else if(salario > 1500) {
 			percentualAumento = 5;
 		} 
 		

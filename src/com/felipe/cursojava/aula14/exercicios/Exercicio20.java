@@ -25,23 +25,23 @@ public class Exercicio20 {
 		
 		int contador = 0;
 		
-		if (resposta1.equalsIgnoreCase("s")){
+		if (resposta1.equalsIgnoreCase("s")) {
 			contador++;
 		}
-		if (resposta2.equalsIgnoreCase("s")){
+		if (resposta2.equalsIgnoreCase("s")) {
 			contador++;
 		}
-		if (resposta3.equalsIgnoreCase("s")){
+		if (resposta3.equalsIgnoreCase("s")) {
 			contador++;
 		}
-		if (resposta4.equalsIgnoreCase("s")){
+		if (resposta4.equalsIgnoreCase("s")) {
 			contador++;
 		}
-		if (resposta5.equalsIgnoreCase("s")){
+		if (resposta5.equalsIgnoreCase("s")) {
 			contador++;
 		}
 		
-		switch(contador) {
+		switch(contador){
 		case 1: break; 
 		case 2: System.out.println("Suspeita"); break;
 		case 3: 

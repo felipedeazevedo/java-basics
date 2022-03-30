@@ -13,7 +13,6 @@ public class Exercicio10 {
 		
 		double tempFarenheit = (tempCelsius * 1.8) + 32;
 		System.out.println("A temperatura em Farenheit é: " + tempFarenheit);
-
 	}
 
 }

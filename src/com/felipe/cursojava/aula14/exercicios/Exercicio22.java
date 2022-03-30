@@ -17,13 +17,13 @@ public class Exercicio22 {
 		double precoMorango = 0;
 		double precoMaca = 0;
 		
-		if (quiloMorango <= 5){
+		if (quiloMorango <= 5) {
 			precoMorango = 2.5;
 		} else {
 			precoMorango = 2.2;
 		}
 		
-		if (quiloMorango <= 5){
+		if (quiloMorango <= 5) {
 			precoMaca = 1.8;
 		} else {
 			precoMaca = 1.5;
@@ -34,7 +34,7 @@ public class Exercicio22 {
 		double valorFinalMorango = 0;
 		double valorFinalMaca = 0;
 		
-		if ((quiloMorango + quiloMaca > 8) || (valorCompraMorango + valorCompraMaca > 25)){
+		if ((quiloMorango + quiloMaca > 8) || (valorCompraMorango + valorCompraMaca > 25)) {
 			valorFinalMorango = valorCompraMorango - (valorCompraMorango * 0.1);
 			valorFinalMaca = valorCompraMaca - (valorCompraMaca * 0.1);
 			System.out.println("Valor da compra: " + (valorFinalMorango + valorFinalMaca));

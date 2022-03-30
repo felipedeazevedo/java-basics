@@ -14,7 +14,6 @@ public class Exercicio34 {
 		double h = 1;
 
 		for (double i = 2; i <= n; i++) {
-			
 			h += 1/i;
 			System.out.println(h);
 		}

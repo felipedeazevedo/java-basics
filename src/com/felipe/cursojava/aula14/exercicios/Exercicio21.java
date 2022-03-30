@@ -18,7 +18,7 @@ public class Exercicio21 {
 		double precoSemDesconto = 0;
 		double precoFinal = 0;
 		
-		if (tipo.equalsIgnoreCase("g")){
+		if (tipo.equalsIgnoreCase("g")) {
 			if (litros <= 20) {
 				desconto = 3;
 			} else {
@@ -34,7 +34,7 @@ public class Exercicio21 {
 			System.out.println("Tipo inválido!");
 		}
 		
-		if (tipo.equalsIgnoreCase("g")){
+		if (tipo.equalsIgnoreCase("g")) {
 			precoSemDesconto = (2.50 * litros);
 			precoFinal = precoSemDesconto - (precoSemDesconto  * (desconto / 100));
 			System.out.println("Preço a ser pago pelo cliente: " + precoFinal);

@@ -14,7 +14,7 @@ public class Exercicio10 {
 		System.out.println("Informe o segundo número");
 		int num2 = scan.nextInt();
 		
-		for (int i = num1; i <= num2; i++){
+		for (int i = num1; i <= num2; i++) {
 			System.out.println(i);
 		}
 	}

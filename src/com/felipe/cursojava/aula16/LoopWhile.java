@@ -10,7 +10,7 @@ public class LoopWhile {
 		
 		System.out.println("Contando até " + max);
 		
-		while (i <= max){
+		while (i <= max) {
 			System.out.println("Valor de i: " + i);
 			i++; // i = i + 1; ou i += 1;
 		}

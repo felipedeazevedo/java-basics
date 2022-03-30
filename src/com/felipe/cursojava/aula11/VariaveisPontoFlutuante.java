@@ -12,7 +12,6 @@ public class VariaveisPontoFlutuante {
 		System.out.println("Valor da passagem = " + valorPassagem);
 		
 		System.out.println("Valor do tomate = " + valorTomate);
-		
 	}
 
 }

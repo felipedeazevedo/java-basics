@@ -13,8 +13,6 @@ public class VariaveisChar {
 		char i = 105;
 		
 		System.out.println("" + o + i);
-		
-		
 	}
 
 }

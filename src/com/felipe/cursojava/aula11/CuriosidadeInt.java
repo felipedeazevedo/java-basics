@@ -10,7 +10,6 @@ public class CuriosidadeInt {
 		
 		// Ao exceder o limite, ele vai para os números negativos.
 		System.out.println(var1 + var2);
-		
 	}
 
 }

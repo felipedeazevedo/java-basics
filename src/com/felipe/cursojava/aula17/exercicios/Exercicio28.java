@@ -14,7 +14,7 @@ public class Exercicio28 {
 		boolean primo = true;
 		
 		for (int i=2; i<num; i++) {
-			if (num % i == 0){
+			if (num % i == 0) {
 				System.out.println("Não é primo - divisível por " + i);
 				primo = false;
 			}

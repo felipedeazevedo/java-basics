@@ -11,7 +11,7 @@ public class Exercicio12 {
 		System.out.println("Tabuada de: ");
 		int num = scan.nextInt();
 		
-		for (int i = 1; i <= 10; i++){
+		for (int i = 1; i <= 10; i++) {
 			System.out.println(num + " x " + i + " = " + (num * i));
 		}
 	}

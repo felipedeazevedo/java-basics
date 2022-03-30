@@ -11,7 +11,7 @@ public class Exercicio2 {
 		System.out.println("Informe um número:");
 		int numero = scan.nextInt();
 		
-		if (numero >= 0){
+		if (numero >= 0) {
 			System.out.println("O número informado é positivo");
 		} else {
 			System.out.println("O número informado é negativo");

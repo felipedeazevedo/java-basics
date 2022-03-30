@@ -16,7 +16,6 @@ public class Exercicio19 {
 		double nota;
 		
 		for (int i=0; i<notas; i++) {
-			
 			System.out.print("Informe a nota " + (i + 1) + ": ");
 			nota = scan.nextDouble();
 			

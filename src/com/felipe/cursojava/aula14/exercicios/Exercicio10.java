@@ -12,11 +12,11 @@ public class Exercicio10 {
 		
 		String turno = scan.next();
 		
-		/*if (turno.equalsIgnoreCase("m")){
+		/*if (turno.equalsIgnoreCase("m")) {
 			System.out.println("Bom dia!");
-		} else if (turno.equalsIgnoreCase("v")){
+		} else if (turno.equalsIgnoreCase("v")) {
 			System.out.println("Boa tarde!");
-		} else if (turno.equalsIgnoreCase("n")){
+		} else if (turno.equalsIgnoreCase("n")) {
 			System.out.println("Boa noite!");
 		} else {
 			System.out.println("Valor inválido!");

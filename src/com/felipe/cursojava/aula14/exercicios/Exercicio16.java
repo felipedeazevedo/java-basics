@@ -13,7 +13,7 @@ public class Exercicio16 {
 		System.out.println("Informe o valor de a:");
 		int a = scan.nextInt();
 		
-		if(a != 0) {
+		if (a != 0) {
 			System.out.println("Informe o valor de b:");
 			int b = scan.nextInt();
 			System.out.println("Informe o valor de c:");

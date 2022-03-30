@@ -15,7 +15,6 @@ public class Exercicio20 {
 		int idade;
 		
 		for (int i=0; i<pessoas; i++) {
-			
 			System.out.print("Informe a idade da pessoa " + (i+1) + ": ");
 			idade = scan.nextInt();
 			

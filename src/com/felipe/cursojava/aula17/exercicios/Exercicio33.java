@@ -14,7 +14,6 @@ public class Exercicio33 {
 		double soma = 0;
 		
 		for (int i = 1, j = 1; i <= n; i++, j +=2) {
-			
 			System.out.print(i + "/" + j + " + ");
 			soma += i / j;
 		}

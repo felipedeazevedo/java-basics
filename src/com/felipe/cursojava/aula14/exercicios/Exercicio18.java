@@ -16,8 +16,6 @@ public class Exercicio18 {
 		} else {
 			System.out.println(numero + " é impar");
 		}
-		
-
 	}
 
 }

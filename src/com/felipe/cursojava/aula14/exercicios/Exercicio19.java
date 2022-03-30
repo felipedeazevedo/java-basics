@@ -20,7 +20,7 @@ public class Exercicio19 {
 		double resultado = 0;
 		boolean valida = true;
 		
-		switch(operacao) {
+		switch(operacao){
 		case "+": resultado = num1 + num2; break;
 		case "-": resultado = num1 - num2; break;
 		case "*": resultado = num1 * num2; break;
@@ -30,7 +30,7 @@ public class Exercicio19 {
 			valida = false;
 		}
 		
-		if (valida){
+		if (valida) {
 			System.out.println("O resultado é " + resultado);
 			
 			if(resultado >= 0) {

@@ -13,7 +13,6 @@ public class Exercicio6 {
 		
 		double areaCirculo = Math.PI * Math.pow(raio, 2);
 		System.out.println("A área do círculo é: " + areaCirculo);
-
 	}
 
 }

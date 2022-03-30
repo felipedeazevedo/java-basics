@@ -22,7 +22,6 @@ public class Exercicio4 {
 		
 		double mediaAritmetica = (nota1 + nota2 + nota3 + nota4) / 4;
 		System.out.println("Média = " + mediaAritmetica);
-
 	}
 
 }

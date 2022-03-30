@@ -16,7 +16,6 @@ public class Exercicio3 {
 		
 		double soma =  numero1 + numero2;
 		System.out.println("Soma = " + soma);
-
 	}
 
 }

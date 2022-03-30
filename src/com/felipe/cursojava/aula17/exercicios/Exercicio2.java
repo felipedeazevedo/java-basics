@@ -32,7 +32,6 @@ public class Exercicio2 {
 			System.out.println("Senha inválida! Informe outra:");
 			senhaUsuario = scan.next();
 		}*/
-
 	}
 
 }

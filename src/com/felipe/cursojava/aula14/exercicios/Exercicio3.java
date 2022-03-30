@@ -21,14 +21,13 @@ public class Exercicio3 {
 		
 		String input = scan.next();
 		
-		if (input.equalsIgnoreCase("f")){
+		if (input.equalsIgnoreCase("f")) {
 			System.out.println("F - feminino");
-		} else if (input.equalsIgnoreCase("m")){
+		} else if (input.equalsIgnoreCase("m")) {
 			System.out.println("M - masculino");
 		} else {
 			System.out.println("Sexo inválido");
 		}
-
 	}
 
 }

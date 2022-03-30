@@ -19,12 +19,12 @@ public class Exercicio23 {
 		
 		double valorCompra = 0;
 		
-		switch(tipo) {
+		switch(tipo){
 		case 1:
 			
 			System.out.println("Tipo de carne: " + tipo);
 			
-			if(qtdCarne <= 5) {
+			if (qtdCarne <= 5) {
 				valorCompra = qtdCarne * 4.90;
 			} else {
 				valorCompra = qtdCarne * 5.80;
@@ -34,7 +34,7 @@ public class Exercicio23 {
 			
 			System.out.println("Tipo de carne: " + tipo);
 			
-			if(qtdCarne <= 5) {
+			if (qtdCarne <= 5) {
 				valorCompra = qtdCarne * 5.90;
 			} else {
 				valorCompra = qtdCarne * 6.80;
@@ -44,7 +44,7 @@ public class Exercicio23 {
 			
 			System.out.println("Tipo de carne: " + tipo);
 			
-			if(qtdCarne <= 5) {
+			if (qtdCarne <= 5) {
 				valorCompra = qtdCarne * 6.90;
 			} else {
 				valorCompra = qtdCarne * 7.80;

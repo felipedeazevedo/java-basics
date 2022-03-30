@@ -15,13 +15,13 @@ public class Exercicio8 {
 		
 		int produdoMaisBarato = 0;
 		
-		if (preco1 <= preco2 && preco1 <= preco3){
+		if (preco1 <= preco2 && preco1 <= preco3) {
 			//produdoMaisBarato = 1;
 			System.out.println("Você deve compar o produto 1.");
-		} else if (preco2 <= preco1 && preco2 <= preco3){
+		} else if (preco2 <= preco1 && preco2 <= preco3) {
 			//produdoMaisBarato = 2;
 			System.out.println("Você deve compar o produto 2.");
-		} else if(preco3 <= preco1 && preco3 <= preco2){
+		} else if(preco3 <= preco1 && preco3 <= preco2) {
 			//produdoMaisBarato = 3;
 			System.out.println("Você deve compar o produto 3.");
 		}

@@ -12,7 +12,7 @@ public class Exercicio4 {
 		String letra = scan.next();
 		
 		
-		if (letra.length() > 1){
+		if (letra.length() > 1) {
 			System.out.println("Não é uma letra válida");
 		} else {
 			switch(letra){

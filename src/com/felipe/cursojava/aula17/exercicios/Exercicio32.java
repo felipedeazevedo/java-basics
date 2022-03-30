@@ -25,7 +25,7 @@ public class Exercicio32 {
 			encerrar = scan.next();
 			
 			
-			switch (codigo) {
+			switch(codigo){
 			case 100: 
 				output += "Cachorro quente - 1,20 * " + quantidade; 
 				output += " = " + (1.2 * quantidade) + "\n";

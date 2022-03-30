@@ -14,7 +14,6 @@ public class Exercicio29 {
 		boolean primo;
 		
 		for (int i = 1; i <= num; i++) {
-			
 			primo = true;
 			
 			for (int j=2; j<i; j++) {

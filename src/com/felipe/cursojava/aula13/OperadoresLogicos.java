@@ -19,7 +19,6 @@ public class OperadoresLogicos {
 		System.out.println(verdadeiro || falso);
 		System.out.println(verdadeiro ^ falso);
 		System.out.println(!verdadeiro && falso);
-		
 	}
 
 }

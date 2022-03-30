@@ -12,12 +12,12 @@ public class Exercicio14 {
 		int countPar = 0;
 		int countImpar = 0;
 		
-		for (int i=0; i<10; i++){
+		for (int i=0; i<10; i++) {
 			
 			System.out.println("Informe um número");
 			num = sc.nextInt();
 			
-			if (num % 2 == 0){
+			if (num % 2 == 0) {
 				countPar++;
 			} else {
 				countImpar++;

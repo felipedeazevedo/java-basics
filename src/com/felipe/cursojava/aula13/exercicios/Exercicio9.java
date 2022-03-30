@@ -13,7 +13,6 @@ public class Exercicio9 {
 		
 		double tempCelsius = (5 * (tempFarenheit - 32) / 9);
 		System.out.println("Convertendo para Celsius fica: " + tempCelsius);
-
 	}
 
 }
