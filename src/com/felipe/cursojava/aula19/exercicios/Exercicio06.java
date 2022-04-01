@@ -6,9 +6,9 @@ public class Exercicio06 {
 		
 		int[] a = new int[10];
 		
-		int[] b = new int[10];
+		int[] b = new int[a.length];
 		
-		int[] c = new int[10];
+		int[] c = new int[a.length];
 		
 		for (int i = 0; i < a.length; i++) {
 			a[i] = i + 1;
@@ -17,7 +17,7 @@ public class Exercicio06 {
 		}
 		
 		for (int valorC : c) {
-			System.out.println(valorC);
+			System.out.print(valorC + " ");
 		}
 	}
 }

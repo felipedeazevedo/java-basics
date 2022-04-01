@@ -14,9 +14,9 @@ public class Exercicio01 {
 		
 		
 		for (int i = 0; i < a.length; i++) {
-			System.out.println("i - " + i);
-			System.out.println("a [" + i + "] - " + a[i]);
-			System.out.println("");
+			//System.out.println("i - " + i);
+			//System.out.println("a [" + i + "] - " + a[i]);
+			//System.out.println();
 			a[i] = i + 1;
 			b[i] = a[i];
 		}

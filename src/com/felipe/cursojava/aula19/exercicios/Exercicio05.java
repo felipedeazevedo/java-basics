@@ -14,11 +14,13 @@ public class Exercicio05 {
 		}
 		
 		for (int valorA : a) {
-			System.out.println(valorA);
+			System.out.print(valorA + " ");
 		}
 		
+		System.out.println();
+		
 		for (int valorB : b) {
-			System.out.println(valorB);
+			System.out.print(valorB + " ");
 		}
 	}
 

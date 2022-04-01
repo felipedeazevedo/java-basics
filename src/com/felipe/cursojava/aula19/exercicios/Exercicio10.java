@@ -4,18 +4,17 @@ public class Exercicio10 {
 
 	public static void main(String[] args) {
 		
-		int[] a = {2, 4, 6, 8, 10, 12, 14, 16, 18, 20};
+		int[] a = new int [10];
 		
-		int[] b = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-		
-		int[] c = new int[10];
+		int[] b = new int [a.length];
 		
 		for (int i = 0; i < a.length; i++) {
-			c[i] = a[i] % b[i];
+			a[i] = i + 1;
+			b[i] = a[i] % 2;
 		}
 
-		for (int valorC : c) {
-			System.out.println(valorC);
+		for (int valorB : b) {
+			System.out.print(valorB + " ");
 		}
 	}
 

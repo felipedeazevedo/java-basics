@@ -25,8 +25,8 @@ public class Exercicio15 {
 		percPares = 10 * countPares; 
 		percImpares = 10 * countImpares; 
 		
-		System.out.println(percPares + "% é o percentual dos números pares");
-		System.out.println(percImpares + "% é o percentual dos números ímpares");
+		System.out.println(percPares + "% é o percentual dos números pares.");
+		System.out.println(percImpares + "% é o percentual dos números ímpares.");
 	}
 
 }

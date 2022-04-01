@@ -11,7 +11,7 @@ public class Exercicio03 {
 		
 		for (int i = 0; i < a.length; i++) {
 			a[i] = i + 1;
-			System.out.println("a[i] = " + a[i]);
+			//System.out.println("a[i] = " + a[i]);
 			b[i] = a[i] * a[i];
 		}
 		
@@ -20,7 +20,7 @@ public class Exercicio03 {
 			System.out.print(valorA + ", ");
 		}
 		
-		System.out.println(""); 
+		System.out.println(); 
 		
 		System.out.println("B");
 		for (int valorB : b) {

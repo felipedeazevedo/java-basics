@@ -1,5 +1,7 @@
 package com.felipe.cursojava.aula19.exercicios;
 
+import java.text.DecimalFormat;
+
 public class Exercicio04 {
 
 	public static void main(String[] args) {
@@ -18,19 +20,20 @@ public class Exercicio04 {
 			System.out.print(valorA + ", ");
 		}
 		
-		System.out.println(""); 
+		System.out.println(); 
 		
 //		System.out.println("B");
 //		for (double valorB : b) {
 //			System.out.print(valorB + ", ");
 //		}
 		
-		System.out.println(""); 
+		System.out.println("B"); 
 		
+		DecimalFormat df = new DecimalFormat("###,###.###");
 		String output = "";
 		
 		for (int i = 0; i < b.length; i++) {
-			output += b[i];
+			output += df.format(b[i]);
 			if (i != (b.length - 1)) {
 			output += ", ";	
 			}

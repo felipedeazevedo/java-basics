@@ -12,7 +12,7 @@ public class Exercicio11 {
 		int count = 0;
 		
 		for (int i = 0; i < a.length; i++) {
-			System.out.println("Entre com um número:");
+			System.out.println("Entre com o número da posição " + (i + 1) + ": ");
 			a[i] = scan.nextInt();
 			if (a[i] % 2 == 0) {
 				count++;
