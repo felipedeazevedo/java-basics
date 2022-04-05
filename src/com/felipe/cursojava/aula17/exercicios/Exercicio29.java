@@ -15,13 +15,11 @@ public class Exercicio29 {
 		
 		for (int i = 1; i <= num; i++) {
 			primo = true;
-			
-			for (int j=2; j<i; j++) {
+			for (int j = 2; j < i; j++) {
 				if (i % j == 0){
 					primo = false;
 				}
 			}
-			
 			if (primo) {
 				System.out.println(i);
 			}
