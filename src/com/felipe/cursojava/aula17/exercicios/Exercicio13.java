@@ -17,7 +17,7 @@ public class Exercicio13 {
 		int resultado = base;
 		
 		for (int i=1; i<expoente; i++) {
-			resultado *= base;
+			resultado = resultado * base;
 		}
 		
 		System.out.println("Resultado = " + resultado);
